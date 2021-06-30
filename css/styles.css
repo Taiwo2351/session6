@@ -1,0 +1,35 @@
+*{
+ box-sizing: border-box;
+}
+body{
+ width: 960px;
+ margin: 0 auto;
+}
+table{
+ width: 80%;
+ min-height: auto;
+
+ border-collapse: collapse;
+}
+table caption{
+ background-color: black;
+ font-size: 30px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ color: aliceblue;
+ padding: 10px;
+}
+table tr th, td{
+ text-align: center;
+ padding: 10px 15px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table tr:nth-child(even){
+ background-color: beige;
+}
+
+table tr:hover{
+ background-color: rgb(195, 195, 174);
+}
+ 
+)
